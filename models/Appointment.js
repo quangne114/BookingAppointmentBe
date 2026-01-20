@@ -7,7 +7,6 @@ const appointmentSchema = new mongoose.Schema(
       ref: "Schedule",
       required: true,
     },
-
     medicalForm: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "MedicalForm",
@@ -25,7 +24,7 @@ const appointmentSchema = new mongoose.Schema(
     price: {
       type: Number, 
       required: true,
-      default: 500000,
+      default: 600000,
     }
   },
   { timestamps: true }

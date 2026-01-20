@@ -1,8 +1,9 @@
-import express from 'express';
-import { createPaymentUrl, vnpayReturn, vnpayIpn } from '../controllers/paymentController.js';
+/** PENDING */
 
-export const paymentRouter = express.Router();
+// import express from 'express';
+// import { createPaymentUrl, vnpayReturn } from '../controllers/paymentController.js';
 
-paymentRouter.post('/payments', createPaymentUrl)
-paymentRouter.get('/vnpay_return', vnpayReturn)
-paymentRouter.get('/vnpay_ipn', vnpayIpn);
+// export const paymentRouter = express.Router();
+
+// paymentRouter.post('/payments', createPaymentUrl)
+// paymentRouter.get('/vnpay_return', vnpayReturn)
